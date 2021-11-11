@@ -2,10 +2,10 @@ body {
 	background-color: #66ccff;
 	overflow-y: hidden;
 }
-#cloud0{
-	left: 990px;
-	height: 130px;
-	width:130px;
+
+#canvas{
+	height: 100%;
+	margin: 0;
 }
 
 #mountain{
@@ -33,7 +33,7 @@ body {
 	left: 1900px;
 	top: 340px;
 }
-#grass, #ground, #birds, #aboutTree, #school, #longTree,#dwarfTree,#blueWater,#blueWaterRev,#motorBoat{
+#grass, #ground, #birds, #aboutTree, #school, #longTree,#dwarfTree,#blueWater,#blueWaterRev,#motorBoat,#cloud0{
 	position: absolute;
 	visibility: hidden;
 	height: 50px;
@@ -42,28 +42,28 @@ body {
 #lv1{
 	position: absolute;
 	left: 1309px;
-	top: 358px;
+	top: 210px;
 	font-weight: bold;
 	font-size: 30px;
 }
 #abt{
 	position: absolute;
 	left: 1389px;
-	top: 440px;
+	top: 300px;
 	font-weight: bold;
 	font-size: 30px;
 }
 #lv2{
 	position: absolute;
 	left: 4850px;
-	top: 358px;
+	top: 210px;
 	font-weight: bold;
 	font-size: 30px;
 }
 #skills{
 	position: absolute;
 	left: 4950px;
-	top: 440px;
+	top: 300px;
 	font-weight: bold;
 	font-size: 30px;
 }
@@ -71,42 +71,42 @@ body {
 #lv3{
 	position: absolute;
 	left: 8650px;
-	top: 358px;
+	top: 210px;
 	font-weight: bold;
 	font-size: 30px;
 }
 #project{
 	position: absolute;
 	left: 8730px;
-	top: 440px;
+	top: 300px;
 	font-weight: bold;
 	font-size: 30px;
 }
 #lv4{
 	position: absolute;
 	left: 10759px;
-	top: 358px;
+	top: 210px;
 	font-weight: bold;
 	font-size: 30px;
 }
 #achive{
 	position: absolute;
 	left: 10800px;
-	top: 440px;
+	top: 300px;
 	font-weight: bold;
 	font-size: 30px;
 }
 #lv5{
 	position: absolute;
 	left: 14159px;
-	top: 358px;
+	top: 210px;
 	font-weight: bold;
 	font-size: 30px;
 }
 #op{
 	position: absolute;
 	left: 14250px;
-	top: 428px;
+	top: 290px;
 	font-weight: bold;
 	font-size: 25px;
 }
@@ -122,9 +122,9 @@ body {
 #htd{
 	position: absolute;
 	left: 1599px;
-	top: 400px;
+	top: 300px;
 	height: 45px;
-	color: black;
+	color: white;
 	font-weight: bold;
 	font-size: 22px;
 	width: 379px;
@@ -134,7 +134,7 @@ body {
 #htd1{
 	position: absolute;
 	left: 1599px;
-	top: 350px;
+	top: 250px;
 	height: 45px;
 	color: white;
 	font-family: 'Brush Script MT', cursive;
@@ -147,7 +147,7 @@ body {
 #schoolNameBoard{
 	position: absolute;
 	left:2395px;
-	top: 323px;
+	top: 184px;
 	height: 45px;
 	color: white;
 	font-weight: bold;
@@ -160,7 +160,7 @@ body {
 #classTenResult{
 	position: absolute;
 	left:2850px;
-	top: 643px;
+	top: 273px;
 	height: 45px;
 	color: white;
 	font-weight: bold;
@@ -172,7 +172,7 @@ body {
 #classTenResult1{
 	position: absolute;
 	left:2850px;
-	top: 663px;
+	top: 253px;
 	height: 45px;
 	color: white;
 	font-weight: bold;
@@ -184,7 +184,7 @@ body {
 #class12Result{
 	position: absolute;
 	left:3150px;
-	top: 270px;
+	top: 130px;
 	height: 45px;
 	color: white;
 	font-weight: bold;
@@ -196,7 +196,7 @@ body {
 #class12Result1{
 	position: absolute;
 	left:3150px;
-	top: 300px;
+	top: 160px;
 	height: 45px;
 	color: white;
 	font-weight: bold;
@@ -208,7 +208,7 @@ body {
 #class12Result2{
 	position: absolute;
 	left:3150px;
-	top: 330px;
+	top: 190px;
 	height: 45px;
 	color: white;
 	font-weight: bold;
@@ -223,8 +223,8 @@ body {
 }
 #colDet{
 	position: absolute;
-	top: 194px;
-	left: 4070px;
+	top: 140px;
+	left: 4000px;
 	font-size: 25px;
 	border-radius: 15px;
 	color: white;
@@ -238,7 +238,7 @@ body {
 #cpp{
 	position: absolute;
 	left:5100px;
-	top: 400px;
+	top: 250px;
 	height: 45px;
 	color: white;
 	font-weight: bold;
@@ -249,7 +249,7 @@ body {
 #JavaScript{
 	position: absolute;
 	left:5300px;
-	top: 350px;
+	top: 200px;
 	height: 45px;
 	color: white;
 	font-weight: bold;
@@ -260,7 +260,7 @@ body {
 #Python{
 	position: absolute;
 	left:5500px;
-	top: 300px;
+	top: 150px;
 	height: 45px;
 	color: white;
 	font-weight: bold;
@@ -271,7 +271,7 @@ body {
 #c{
 	position: absolute;
 	left:6150px;
-	top: 280px;
+	top: 140px;
 	height: 45px;
 	color: white;
 	font-weight: bold;
@@ -282,7 +282,7 @@ body {
 #de{
 	position: absolute;
 	left:6350px;
-	top: 280px;
+	top: 140px;
 	height: 45px;
 	color: white;
 	font-weight: bold;
@@ -293,7 +293,7 @@ body {
 #description{
 	position: absolute;
 	left:9100px;
-	top: 280px;
+	top: 160px;
 	height: 45px;
 	color: white;
 	font-weight: bold;
@@ -304,7 +304,7 @@ body {
 #description1{
 	position: absolute;
 	left:9800px;
-	top: 255px;
+	top: 135px;
 	height: 45px;
 	color: white;
 	font-weight: bold;
@@ -315,7 +315,7 @@ body {
 #description2{
 	position: absolute;
 	left:11250px;
-	top: 435px;
+	top: 285px;
 	height: 45px;
 	color: white;
 	font-weight: bold;
@@ -326,7 +326,7 @@ body {
 #description3{
 	position: absolute;
 	left:11850px;
-	top: 235px;
+	top: 120px;
 	height: 45px;
 	color: white;
 	font-weight: bold;
@@ -337,7 +337,7 @@ body {
 #description4{
 	position: absolute;
 	left:12460px;
-	top: 435px;
+	top: 205px;
 	height: 45px;
 	color: white;
 	font-weight: bold;
@@ -348,7 +348,7 @@ body {
 #description5{
 	position: absolute;
 	left:13650px;
-	top: 455px;
+	top: 350px;
 	height: 45px;
 	color: white;
 	font-weight: bold;
@@ -359,7 +359,7 @@ body {
 #fin{
 	position: absolute;
 	left:13065px;
-	top: 405px;
+	top: 255px;
 	height: 45px;
 	color: white;
 	font-weight: bold;
@@ -370,7 +370,7 @@ body {
 #lastmsg{
 	position: absolute;
 	left:15325px;
-	top: 240px;
+	top: 100px;
 	height: 45px;
 	color: royalblue;
 	font-weight: bold;
@@ -379,7 +379,24 @@ body {
 	text-align: center;
 }
 
-#hero1,#hero2,#hero3,#hero_1,#hero_2,#hero_3,#fullstack,#bug,#bugrev,#brick,#goldbrick,#pipe,#htmllogo,#csslogo,#jslogo,#quesbox,#explosion,#cvd,#tex{
+#inst1{
+	position: absolute;
+	left: 500px;
+	top: 660px;
+	color: white;
+	font-weight: bold;
+	font-size: 25px;
+}
+#inst2{
+	position: absolute;
+	left: 4105px;
+	top: 656px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#hero1,#mark,#marksheet,#seacreatures,#seacreaturesRev,#bls,#ufo,#hero2,#hero3,#hero_1,#hero_2,#hero_3,#fullstack,#bug,#bugrev,#brick,#goldbrick,#pipe,#htmllogo,#csslogo,#jslogo,#quesbox,#explosion,#cvd,#tex{
 	position: absolute;
 	visibility: hidden;
 }
